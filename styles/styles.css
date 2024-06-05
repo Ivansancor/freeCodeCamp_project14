@@ -17,15 +17,21 @@ aside {
     position: sticky;
     top: 0;
     left: 0;
-    width: 25%;
-    height: 100%;
+    width: 22%;
+    min-width: 14rem;
+    height: 100vh;
     padding: 1rem 0;
     border-right: 0.2rem solid black;
-    overflow: auto;
+    overflow-y: scroll;
 }
 
 aside h1, aside nav ul li {
     border-bottom: 0.1rem solid black;
+}
+
+aside h1, aside nav ul li {
+    padding: 0 1rem 1rem;
+    margin-bottom: 1rem;
 }
 
 aside a[href="#reference"] li {
@@ -34,24 +40,19 @@ aside a[href="#reference"] li {
     padding-bottom: unset;
 }
 
-aside h1, aside nav ul li {
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    margin-bottom: 1rem;
-}
-
 aside nav ul {
     list-style-type: none;
 }
 
+
 aside a {
     text-decoration: none;
-    color: black;
+    color: darkgrey;
 }
 
 main {
     padding: 2rem;
-    width: 75%;
+    width: 78%;
 }
 
 main section {
@@ -75,7 +76,7 @@ main section p, main section ul li{
     margin-bottom: 1rem;
 }
 
-main section code {
+main section pre {
     background-color: #efefef;
     padding: 1rem;
     font-family: monospace;
@@ -90,7 +91,7 @@ main section code {
     margin: unset;
 }
 
-#declaring-variables code {
+#declaring-variables pre {
     margin-left: 0.6rem;
 }
 
