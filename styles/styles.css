@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    display: flex;
+}
+
+aside {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    padding: 1rem 0;
+    border-right: 0.2rem solid black;
+    overflow: auto;
+}
+
+aside h1, aside nav ul li {
+    border-bottom: 0.1rem solid black;
+}
+
+aside a[href="#reference"] li {
+    border: none;
+    margin-bottom: unset;
+    padding-bottom: unset;
+}
+
+aside h1, aside nav ul li {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+aside nav ul {
+    list-style-type: none;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 2rem;
+    width: 75%;
+}
+
+main section {
+    width: 100%;
+}
+
+main section h2 {
+    margin: 3rem 0 2rem;
+}
+
+#introduction h2 {
+    margin-top: unset;
+}
+
+main section ul {
+    margin-left: 3rem;
+}
+
+main section p, main section ul li{ 
+    margin-left: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+main section code {
+    background-color: #efefef;
+    padding: 1rem;
+    font-family: monospace;
+    width: 100%;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#declaring-variables ul {
+    list-style-type: none;
+    margin: unset;
+}
+
+#declaring-variables code {
+    margin-left: 0.6rem;
+}
+
+#declaring-variables ul li {
+    margin: unset;
+}
